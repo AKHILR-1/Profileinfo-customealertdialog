@@ -43,7 +43,7 @@ fun StudentApp(modifier: Modifier = Modifier) {
     var studentInfo by remember {
         mutableStateOf(
             StudentInfo(
-                name = "AKHIL R",
+                name = "AKHIL R - CyberSecurity Specialist & Android Developer",
                 regNo = "12306822",
                 phoneNo = "012456789",
                 email = "akhil@example.com",
