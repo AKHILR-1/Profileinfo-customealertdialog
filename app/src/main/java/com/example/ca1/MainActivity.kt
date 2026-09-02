@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.ca1.ui.theme.Ca1Theme
 
 data class StudentInfo(
@@ -159,4 +160,12 @@ fun UpdateDialog(
             }
         }
     )
+}
+
+@Preview(showBackground = true)
+@Composable
+fun StudentAppPreview() {
+    Ca1Theme {
+        StudentApp()
+    }
 }
